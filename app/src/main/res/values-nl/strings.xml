@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Raad het Voorwerp</string>
+    
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+
+    <string name="app_id">57718677270</string>
+
+    <string name="coins_q">Munten?</string>
+    <string name="coins">Munten!</string>
+    <string name="title_removeletters">Verwijder letters</string>
+    <string name="text_removeletters">Weet je zeker dat je letter wilt verwijderen voor</string>
+    
+    <string name="title_hintletter">Toon een letter</string>
+    <string name="text_hintletter">Weet je zeker dat je een letter wilt kopen voor</string>
+    
+    <string name="title_skiplevel">Sla level over</string>
+    <string name="text_skiplevel">Weet je zeker dat je dit level wilt overslaan voor</string>
+    
+    <string name="toast_hint">Verwijder een letter uit je antwoord, om een letter te kunnen tonen.</string>
+    <string name="toast_remove">Je kunt geen letters meer verwijderen!</string>
+    <string name="toast_remove2">Je kunt in dit level geen letters meer verwijderen..</string>
+    
+    <string name="popup_title_lang">Taal veranderen?</string>
+    <string name="popup_text_lang">Weet je zeker dat je de taal wilt veranderen? Je start op level 1, maar je behoudt je munten.</string>
+    
+    <string name="toast_problemshop">Er is een probleem ontstaan bij de in-app aankoop</string>
+    <string name="toast_bought">Bedankt voor je aankoop!</string>
+    
+     <string name="inapp150">Bij je volgende aankoop krijg je 50% gratis munten!</string>
+     
+       <string name="loadlevels_title">Een moment geduld...</string>
+     <string name="loadlevels_text">De levels worden geladen. Dit kan enkele seconden duren.</string>
+</resources>

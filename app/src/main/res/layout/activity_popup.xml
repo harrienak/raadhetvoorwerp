@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/achtergrond_drempel"
+    android:gravity="center_horizontal" >
+
+    <include
+        android:id="@+id/bovenbalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bovenbalk" />
+
+    <ImageView
+        android:id="@+id/imageViewTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekst_rate" 
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/buttonPopUp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rate_button"/>
+    
+        <Button
+        android:id="@+id/buttonPopUp2"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rate_button"/>
+        
+             <Button
+        android:id="@+id/buttonSluit"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pijlnext_button"/>
+    
+
+</LinearLayout>

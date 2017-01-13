@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/achtergrond_main"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/bovenbalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bovenbalk" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bovenbalk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/emojiquizlogo" />
+
+    <LinearLayout
+        android:id="@+id/hulp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/play_knop_2" >
+
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play_button" />
+    </LinearLayout>
+    
+     <Button 
+             android:layout_marginTop="20dp"
+             android:layout_below="@id/hulp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonWIHW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wihw_button"
+        
+ />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/likeusmain_button" />
+
+         <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-2334535603900096/9988067762" >
+        </com.google.android.gms.ads.AdView>
+        
+<!--         <WebView -->
+<!--             android:id="@+id/webView1" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="50dp" -->
+<!--             android:scrollbars="none" /> -->
+    </LinearLayout>
+
+</RelativeLayout>

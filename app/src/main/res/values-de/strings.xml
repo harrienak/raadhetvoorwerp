@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Errat das Object</string>
+    
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="app_id">57718677270</string>
+
+    <string name="coins_q">M&#252;nzen?</string>
+    <string name="coins">M&#252;nzen!</string>
+    <string name="title_removeletters">Entfern Buchstaben</string>
+    <string name="text_removeletters">Bist du sicher das du Buchstaben willst entfernen f&#252;r</string>
+    
+    <string name="title_hintletter">Bekomm ein Buchstabe </string>
+    <string name="text_hintletter">Bist du sicher das du ein Buchstabe willst kaufen f&#252;r</string>
+    
+    <string name="title_skiplevel">N&#228;chste Level</string>
+    <string name="text_skiplevel">Bist du sicher das du dieser Level willst &#252;berspringen f&#252;r</string>
+    
+    <string name="toast_hint">Entfern Buchstaben aus Ihrer Antwort, um Hint zu gebrauchen.</string>
+    <string name="toast_remove">Du kannst nicht mehr Buchstaben entfernen.</string>
+    <string name="toast_remove2">Du kannst nicht mehr Buchstaben entfernen.</string>
+    
+    <string name="popup_title_lang">Sprache &#228;ndern?</string>
+    <string name="popup_text_lang">Bist du sicher? Du beginnst auf Ebene 1!</string>
+    
+    <string name="toast_problemshop">Er ist ein Problem mit in-app Kauf</string>
+    <string name="toast_bought">Danke sehr f&#252;r Ihre kauf</string>
+    
+    <string name="inapp150">Mit Ihrem nächsten Einkauf, bekommen Sie 50% extra gratis Münzen!</string>
+     
+        <string name="loadlevels_title">Warten Sie mal ...</string>
+     <string name="loadlevels_text">Die Stufen werden geladen. Dies kann einige Sekunden dauern.</string>
+</resources>

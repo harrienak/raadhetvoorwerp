@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/achtergrond_shop" >
+    
+    <include layout="@layout/bovenbalk"
+        android:id="@+id/bovenbalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+             
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                 <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/shop_scherm"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" >
+
+                        <Button
+                android:id="@+id/buttonTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_twitter" />
+                     
+            <Button
+                android:id="@+id/buttonFree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shopfree_button" />
+
+            <Button
+                android:id="@+id/buttonShop450"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop450_button" />
+
+            <Button
+                android:id="@+id/buttonShop1200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop1200_button" />
+
+            <Button
+                android:id="@+id/buttonShop2600"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop2600_button" />
+
+            <Button
+                android:id="@+id/buttonShop5700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop5700_button" />
+
+            <Button
+                android:id="@+id/buttonShop12500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop12500_button" />
+
+              <Button
+                android:id="@+id/buttonShopOneindig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_oneindig_button" />
+            
+            <Button
+                android:id="@+id/buttonShopNoAds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shopnoads_button" />
+        </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

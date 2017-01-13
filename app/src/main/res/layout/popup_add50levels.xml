@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/achtergrond_popup3"
+    android:gravity="center_horizontal"
+    android:paddingTop="300dp"
+    android:id="@+id/layoutPopupNiveau"
+    >
+    <Button
+        android:layout_marginBottom="5dp"
+        android:id="@+id/buttonAKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_downlaod_button"
+        />
+    
+    
+    <Button
+        android:layout_marginBottom="45dp"
+        android:id="@+id/buttonSluit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_sluit_button"/>
+
+</LinearLayout>
